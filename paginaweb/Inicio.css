@@ -1,0 +1,485 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+
+
+
+header{
+	width: 100%;
+	height: 500px;
+}
+
+.sectionI{
+	width: 100%;
+	height: 100%;
+}
+
+#menu{
+	background-color: green;
+	width: 100%;
+
+}
+
+header nav ul li{
+	height:10%;
+	background-color: #556EEC;
+	float: left;
+	list-style:none;
+	font-size:20px;
+	width: 20%;
+	
+}
+
+
+#nombre{
+	padding-left: 30px;
+}
+
+.list{
+	padding-top: 25px;
+}
+
+.lis{
+	padding-left: 100px;
+}
+
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #E0D0F9;
+
+}
+
+#mapa2{
+	padding: 20px;
+	background-color: #6379F4;
+}
+
+.sectionI{
+	height: 230%;
+	background-color: #AF83F5;
+}
+
+.sectionI div{
+	padding: 100px;
+
+}
+
+.titulos{
+	text-align: center;
+}
+
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 100%;
+	height: 85%;
+}
+
+
+.slider img {
+	width: 85%;
+	margin-left: 20%;
+
+}
+
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+
+
+
+
+
+#carrusel{
+	width:100%;
+	height: 80%;
+}
+
+
+.section2{
+	width: 100%;
+
+}
+
+.footer{
+	pading:10px;
+	background-color: red;
+	position: bottom;	
+}
+#footerr{
+	background-color: red;
+}
+
+#mapa{
+	width: 100%;
+	height: 85%;
+}
+
+.iconos{
+	width: 40px;
+}
+
+.rut{
+	width: 100%;
+	height: 1800px;
+	background-color: #AF83F5;
+}
+
+#titruta{
+	padding: 0px 500px;
+	font-size: 28px;
+	
+}
+.img{
+	height: 300px;
+	width: 50%;
+	float: left;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.texto1{
+	width: 40%;
+	float: left;
+	padding: 20px;
+	font-size: 20px;
+	
+}
+
+.inisioSe{
+	background-color: #AF83F5;
+	height:50%;
+	padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+form{
+	width: 800px;
+	margin: center;
+	padding: 15px;
+	border-radius: 15px;
+	background-color: #793B91;
+}
+
+form p input{
+	background-color: #ffffff;
+	border: 1px solid #333333;
+	border-radius: 5px;
+	display: block;
+	margin-top: 5px;
+	width: 100%;
+	padding: 20px 50px;
+	
+
+	
+}
+form p button{
+	background-color: #00B5B8;
+	border: 0;
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px 50px;
+	color: #ffffff;
+
+}
+
+#cielo{
+	width: 100%;
+	height: 85%;
+}
+
+.registroform{
+	background-color: #AF83F5;
+	width:75%;
+	height:140%;
+	padding-left: 25%;
+	padding-top: 5%;
+}
+
+footer div{
+	padding-left: 100px;
+}
+
+.iconos{
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+.sectionD{
+	height: 500px;
+	background-color: #AF83F5;
+}
+
+
+
+@media(min-width:500px) and (max-width:1000px){
+*{
+padding: 0;
+margin: 0;
+}
+
+
+
+
+header{
+	width: 100%;
+	height: 500px;
+}
+
+.sectionI{
+	width: 100%;
+	height: 100%;
+}
+
+#menu{
+	background-color: green;
+	width: 100%;
+
+}
+
+header nav ul li{
+	height:10%;
+	background-color: #556EEC;
+	float: left;
+	list-style:none;
+	font-size:20px;
+	width: 16.66%;
+	
+}
+
+#nombre{
+	padding-left: 30px;
+}
+
+.list{
+	padding-top: 25px;
+}
+
+.lis{
+	padding-left: 100px;
+}
+
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #E0D0F9;
+
+}
+
+#mapa2{
+	padding: 20px;
+	background-color: #6379F4;
+}
+
+.sectionI{
+	height: 230%;
+	background-color: #AF83F5;
+}
+
+.sectionI div{
+	padding: 100px;
+
+}
+
+.titulos{
+	text-align: center;
+}
+
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 100%;
+	height: 85%;
+}
+
+
+.slider img {
+	width: 85%;
+	margin-left: 20%;
+
+}
+
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+
+
+
+
+
+#carrusel{
+	width:100%;
+	height: 80%;
+}
+
+
+.section2{
+	width: 100%;
+
+}
+
+.footer{
+	pading:10px;
+	background-color: red;
+	position: bottom;	
+}
+#footerr{
+	background-color: red;
+}
+
+#mapa{
+	width: 100%;
+	height: 85%;
+}
+
+.iconos{
+	width: 40px;
+}
+
+.rut{
+	width: 100%;
+	height: 1800px;
+	background-color: #AF83F5;
+}
+
+#titruta{
+	padding: 0px 500px;
+	font-size: 28px;
+	
+}
+.img{
+	height: 300px;
+	width: 50%;
+	float: left;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.texto1{
+	width: 40%;
+	float: left;
+	padding: 20px;
+	font-size: 20px;
+	
+}
+
+.inisioSe{
+	background-color: #AF83F5;
+	height:50%;
+	padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+form{
+	width: 800px;
+	margin: center;
+	padding: 15px;
+	border-radius: 15px;
+	background-color: #793B91;
+}
+
+form p input{
+	background-color: #ffffff;
+	border: 1px solid #333333;
+	border-radius: 5px;
+	display: block;
+	margin-top: 5px;
+	width: 100%;
+	padding: 20px 50px;
+	
+
+	
+}
+form p button{
+	background-color: #00B5B8;
+	border: 0;
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px 50px;
+	color: #ffffff;
+
+}
+
+#cielo{
+	width: 100%;
+	height: 85%;
+}
+
+.registroform{
+	background-color: #AF83F5;
+	width:75%;
+	height:140%;
+	padding-left: 25%;
+	padding-top: 5%;
+}
+
+footer div{
+	padding-left: 100px;
+}
+
+.iconos{
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+.sectionD{
+	height: 500px;
+	background-color: #AF83F5;
+}
+
+}
